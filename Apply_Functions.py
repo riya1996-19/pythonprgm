@@ -20,7 +20,6 @@ d = {'Score_Math':pd.Series([66,57,75,44,31,67,85,33,42,62,51,47]),
 
 print(type(d))
 print(d)
-df = pd.DataFrame(d)
 print (df)
 print (df.pipe(adder,2))
 
